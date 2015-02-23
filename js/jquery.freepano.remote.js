@@ -175,7 +175,7 @@ $.extend(true, Remote.prototype, {
 		alert('------> 3 INI NEW MODULE');
 		console.log('------> 3 INI NEW MODULE');
 
-    }, // map_init
+    }, // module_init
 
 });
 
