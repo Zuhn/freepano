@@ -69,7 +69,7 @@
  *
  */
 
-var eventDispatcherDebug=1;
+var eventDispatcherDebug=0;
 
 // setup specified prototype or instance to dispatch events among subscribers
 function setupEventDispatcher(obj) {

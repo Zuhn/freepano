@@ -595,6 +595,10 @@ $(document).on('filesloaded', function(){
         active: true
     },
 
+    remote: {
+        active: true
+    },
+
     // THREE.js renderer options
 
     renderer: {
