@@ -1068,9 +1068,9 @@ $.extend(true,Controls.prototype, {
     },
 
     // [private] _device_move_by_device_motion() method
-    _device_move_by_device_motion: function(e) {
+    _device_move_by_device_motion: function(e, _controls) {
 
-        var controls = window._controls_devicemotion;
+        var controls = _controls;//window._controls_devicemotion;
         if (!controls.devicemotion.move.active && !controls.devicemotion.move.remote)
             return;
 
